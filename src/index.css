@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+  
+  .stat-card {
+    @apply relative overflow-hidden rounded-xl p-6 transition-all duration-200 hover:translate-y-[-2px];
+  }
+  
+  .stat-card::before {
+    @apply absolute inset-0 opacity-50 transition-opacity duration-200;
+    content: '';
+    background: radial-gradient(circle at top right, rgba(255,255,255,0.2), transparent 50%);
+  }
+  
+  .stat-card:hover::before {
+    @apply opacity-75;
+  }
+  
+  .nav-link {
+    @apply flex items-center px-3 py-2.5 text-sm font-medium rounded-lg transition-all duration-200 overflow-hidden whitespace-nowrap;
+  }
+  
+  .nav-link-active {
+    @apply bg-gray-900 text-white;
+  }
+  
+  .nav-link-inactive {
+    @apply text-gray-300 hover:bg-gray-800 hover:text-white;
+  }
+
+  .nav-icon {
+    @apply w-5 h-5 min-w-[1.25rem] flex-shrink-0;
+  }
+}
