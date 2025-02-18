@@ -2,39 +2,11 @@
 
 A modern, full-featured property management system built with React, TypeScript, and Supabase. Designed to help property managers and landlords efficiently manage their properties, tenants, and documents.
 
-![Dashboard Preview](https://images.unsplash.com/photo-1556156653-e5a7c69cc263?auto=format&fit=crop&w=1200&q=80)
+## Fork in bolt.new
+[https://bolt.new/github/donvito/bolt-rental-manager](https://bolt.new/github/donvito/bolt-rental-manager)
 
-## Features
-
-- 📊 **Dashboard Overview**
-  - Property statistics and occupancy rates
-  - Monthly revenue tracking
-  - Maintenance request monitoring
-  - Quick access to recent properties and tenants
-
-- 🏠 **Property Management**
-  - Add and edit properties
-  - Track property details (bedrooms, bathrooms, rent)
-  - Monitor property status
-  - View maintenance requests
-
-- 👥 **Tenant Management**
-  - Comprehensive tenant profiles
-  - Lease tracking
-  - Contact information
-  - Property assignments
-
-- 📄 **Document Management**
-  - Upload and organize documents
-  - Categorize by type (lease, contract, maintenance, etc.)
-  - Tag system for easy searching
-  - Secure document storage
-
-- 🔒 **Security**
-  - User authentication
-  - Row Level Security (RLS)
-  - Protected routes
-  - Secure file storage
+## Screenshot
+<img width="1721" alt="Screenshot 2025-02-18 at 9 34 12 PM" src="https://github.com/user-attachments/assets/afb59398-52b3-49b2-b51b-5985892b4170" />
 
 ## Tech Stack
 
@@ -149,14 +121,6 @@ The application uses the following main tables:
    ```
 
 2. Deploy to your preferred hosting service (e.g., Netlify, Vercel)
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
 
 ## License
 
